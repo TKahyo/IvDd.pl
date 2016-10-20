@@ -1,7 +1,7 @@
 #IvDd.pl
   
 ##Description  
-#####IvDd.pl is a Perl script to estimate insertional variations of LTR-retrotransposons from the DGV dataset. 
+#####IvDd.pl is a Perl script to estimate insertional polymorphisms of LTR-retrotransposons from the DGV dataset. 
   
 ##Requirement
 #####1. Tools  
@@ -18,7 +18,7 @@
 * LTR list data (RM\_LTR\_list.bed): Annotation data of LTRs. Downloadable via RepeatMasker track from the Table Browser in  [the University of California Santa Cruz (UCSC) Genome Browser](http://genome.ucsc.edu/index.html). Containing 6 columns.  
 #  
     chr1    10485451    10485712    LTR5_Hs    7438    +    
-    chr1    10486981    10487683    LTR5_Hs    7438    +  
+    chr1    10486981    10487683    LTR5_Hs    7438    +  
         ...  
   
 ##Usage
