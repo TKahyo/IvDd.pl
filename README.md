@@ -1,7 +1,7 @@
 #IvDd.pl
   
 ##Description  
-#####IvDd.pl is a Perl script to estimate insertional polymorphisms of LTR-retrotransposons from the DGV dataset. 
+#####IvDd.pl is a Perl script to estimate insertional variations of LTR-retrotransposons from the DGV dataset. 
   
 ##Requirement
 #####1. Tools  
