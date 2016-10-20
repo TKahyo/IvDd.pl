@@ -5,7 +5,7 @@
   
 ##Requirement
 #####1. Tools  
-* BEDtools (intersectBed): [Quinlan Lab at the University of Utah](http://bedtools.readthedocs.io/en/latest/)	v2.25.0 or later. -F option of intersectBed is required. 
+* BEDtools (intersectBed): [Quinlan Lab at the University of Utah](http://bedtools.readthedocs.io/en/latest/)	v2.25.0 or later. -F   option of intersectBed is required. 
 #####2. Data sets  
 * DGV Variants (dgv.txt): Downloadable from [the Database of Genomic Variants (DGV)](http://dgv.tcag.ca/dgv/app/about?ref=GRCh37/hg19). Containing 20 columns.  
 
