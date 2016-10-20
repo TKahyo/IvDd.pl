@@ -28,17 +28,17 @@
     perl IvDd.pl -d dgv.txt -t RM_LTR_list.bed -i RM_ORF_list.bed [other_options]  >result
 
 #####Options
--h|--help	print help.  
+-h|--help　　print help
 
-*-b    Full path of intersectBed
+*-b　　Full path of intersectBed
 
-*-d    DGV dataset (.txt)
+*-d　　DGV dataset (.txt)
 
--del    Maximum of deletion length parameter (default 1500)
+-del　　Maximum of deletion length parameter (default 1500)
 
--f    intersectBed -f option (default 0.9)
+-f　　intersectBed -f option (default 0.9)
 
-*-t|-i    LTR\_list.bed (-t) and ORF\_list.bed (-i) from RepeatMasker data
+*-t|-i　　LTR\_list.bed (-t) and ORF\_list.bed (-i) from RepeatMasker data
 
 *required options  
 
