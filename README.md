@@ -43,4 +43,4 @@
 *required options  
 
 Results are printed on the standard output.  
-Table captions of the result: [6 captions of RM\_LTR\_list.bed] [Chr, Start, End, ID, CNV, Type and Study of dgv.txt] [6 captions of RM\_ORF\_list.bed]  
+Table captions of the result: [6 captions of RM\_LTR\_list.bed] [Chr, Start, End, ID, CNV, Type and Study of dgv.txt] [6 captions of RM\_ORF\_list.bed (if any)]  
