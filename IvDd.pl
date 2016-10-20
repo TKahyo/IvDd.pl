@@ -1,6 +1,5 @@
 #!/usr/local/bin/perl
 
-
 #####################################################
 # Estimating putative insertinal variations of HML-2 from DGV archive.
 # this.pl -d DGV_file -t LTR_list.bed -i ORF_list.bed [other_options]
