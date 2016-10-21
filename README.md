@@ -30,17 +30,17 @@
 #####Options
 -h|--help　　print help
 
-*-b　　Full path of intersectBed
+-b\*　　Full path of intersectBed
 
-*-d　　DGV dataset (.txt)
+-d\*　　DGV dataset (.txt)
 
 -del　　Maximum of deletion length parameter (default 1500)
 
 -f　　intersectBed -f option (default 0.9)
 
-*-t|-i　　LTR\_list.bed (-t) and ORF\_list.bed (-i) from RepeatMasker data
+-t\*|-i\*　　LTR\_list.bed (-t) and ORF\_list.bed (-i) from RepeatMasker data
 
-*required options  
+*required  
 
 Results are printed on the standard output.  
 Table captions of the result: [6 captions of RM\_LTR\_list.bed] [Chr, Start, End, ID, CNV, Type and Study of dgv.txt] [6 captions of RM\_ORF\_list.bed (if any)]  
