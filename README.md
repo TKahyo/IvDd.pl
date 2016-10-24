@@ -4,20 +4,20 @@
 #####IvDd.pl is a Perl script to estimate insertional variations of LTR-retrotransposons from the DGV dataset. 
   
 ##Requirement
-####1. Tools  
-* BEDtools (intersectBed): [Quinlan Lab at the University of Utah](http://bedtools.readthedocs.io/en/latest/)	v2.25.0 or later. -F option of intersectBed is required.  
+### Tools  
+ [1] BEDtools (intersectBed): [Quinlan Lab at the University of Utah](http://bedtools.readthedocs.io/en/latest/)	v2.25.0 or later. -F option of intersectBed is required.  
 
-####2. Data sets  
-* DGV Variants (dgv.txt): Downloadable from [the Database of Genomic Variants (DGV)](http://dgv.tcag.ca/dgv/app/about?ref=GRCh37/hg19). Containing 20 columns.  
+### Data sets  
+ [1] DGV Variants (dgv.txt): Downloadable from [the Database of Genomic Variants (DGV)](http://dgv.tcag.ca/dgv/app/about?ref=GRCh37/hg19). Containing 20 columns.  
 
-* ORF data (RM\_ORF\_list.bed): Annotation data of open reading frames (ORFs). Downloadable via RepeatMasker track from the Table Browser in  [the University of California Santa Cruz (UCSC) Genome Browser](http://genome.ucsc.edu/index.html). In the case of HML-2, HERVK-int should be included. Containing 6 columns.  
+ [2] ORF data (RM\_ORF\_list.bed): Annotation data of open reading frames (ORFs). Downloadable via RepeatMasker track from the Table Browser in  [the University of California Santa Cruz (UCSC) Genome Browser](http://genome.ucsc.edu/index.html). In the case of HML-2, HERVK-int should be included. Containing 6 columns.  
 
 #  
     chr1    12840257    12845090    HERVK-int    27617    -  
     chr1    13459295    13460029    HERVK-int    4505     +  
         ...  
 
-* LTR list data (RM\_LTR\_list.bed): Annotation data of LTRs. Downloadable via RepeatMasker track from the Table Browser in  [the University of California Santa Cruz (UCSC) Genome Browser](http://genome.ucsc.edu/index.html). In the case of HML-2, LTR5_Hs should be included. Containing 6 columns.  
+ [3] LTR list data (RM\_LTR\_list.bed): Annotation data of LTRs. Downloadable via RepeatMasker track from the Table Browser in  [the University of California Santa Cruz (UCSC) Genome Browser](http://genome.ucsc.edu/index.html). In the case of HML-2, LTR5_Hs should be included. Containing 6 columns.  
 
 #  
     chr1    10485451    10485712    LTR5_Hs    7438    +    
