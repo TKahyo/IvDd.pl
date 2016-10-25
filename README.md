@@ -10,7 +10,7 @@
 ### Data sets  
  [1] DGV Variants (dgv.txt): Downloadable from [the Database of Genomic Variants (DGV)](http://dgv.tcag.ca/dgv/app/about?ref=GRCh37/hg19). Containing 20 columns.  
 
- [2] ORF data (RM\_ORF\_list.bed): Annotation data of open reading frames (ORFs). Downloadable via RepeatMasker track from the Table Browser in  [the University of California Santa Cruz (UCSC) Genome Browser](http://genome.ucsc.edu/index.html). In the case of HML-2, HERVK-int should be included. Containing 6 columns.  
+ [2] Internal proviral sequence data (RM\_ORF\_list.bed): Annotation data of the internal proviral sequences. Downloadable via RepeatMasker track from the Table Browser in  [the University of California Santa Cruz (UCSC) Genome Browser](http://genome.ucsc.edu/index.html). In the case of HML-2, HERVK-int should be included. Containing 6 columns.  
 
 #  
     chr1    12840257    12845090    HERVK-int    27617    -  
@@ -25,7 +25,7 @@
         ...  
   
 ##Usage
-    perl IvDd.pl -d dgv.txt -t RM_LTR_list.bed -i RM_ORF_list.bed [other_options]  >result
+    perl IvDd.pl -d dgv.txt -t RM_LTR_list.bed -i RM_int_list.bed [other_options]  >result
 
 #####Options
 -h|--help　　print help
@@ -38,7 +38,7 @@
 
 -f　　intersectBed -f option (default 0.9)
 
--t\*|-i\*　　LTR\_list.bed (-t) and ORF\_list.bed (-i) from RepeatMasker data
+-t\*|-i\*　　LTR\_list.bed (-t) and int\_list.bed (-i) from RepeatMasker data
 
 *required  
 
