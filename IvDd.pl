@@ -8,7 +8,7 @@
 # [1] bedtools (intersectBed)	# the latest version recommended. -F option is utilized for intersectBed.
 # [2] DGV dataset (.txt)	# from DGV Variants (20 columns)
 # [3] LTR list (.bed)		# from RepeatMasker (6 columns)
-# [4] ORF list (.bed)		# from RepeatMasker (6 columns)
+# [4] int list (.bed)		# from RepeatMasker (6 columns)
 # Table captions of the result: <6 captions of [3]> <Chr, Start, End, ID, CNV, Type and Study of [2]> <6 captions of [4]>
 #####################################################
 
@@ -20,7 +20,7 @@ use Pod::Usage;
 my $path_intersectBed;	# path of intersectBed
 my $db_origin;		# DGV dataset (.txt)
 my $target;		# LTR list (.bed)
-my $int;		# ORF list (.bed) 
+my $int;		# Internal proviral sequence list (.bed) 
 my $delen = 1500;	# Maximum of deletion length parameter
 my $ovlp = 1;		# intersectBed -f option
 my $gap_LTR_int_max = 100;
@@ -118,7 +118,7 @@ __END__
  
 =head1 SYNOPSIS
  
-B<perl IvDd.pl -d dgv.txt -t RM_LTR_list.bed -i RM_ORF_list.bed [other_options]>
+B<perl IvDd.pl -d dgv.txt -t RM_LTR_list.bed -i RM_int_list.bed [other_options]>
  
 Options: [-h|--help|-b*|-d*|-f|-t*|-i*|--del; *required]
 
@@ -150,7 +150,7 @@ intersectBed -f option (default 0.9)
 
 =item B<-t|-i>
  
-LTR_list.bed (-t) and ORF_list.bed (-i)
+LTR_list.bed (-t) and int_list.bed (-i)
 
 =back
 
