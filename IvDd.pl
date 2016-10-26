@@ -134,7 +134,7 @@ print help.
 
 =item B<-b>
  
-Full path of intersectBed
+/path/intersectBed
 
 =item B<-d>
  
