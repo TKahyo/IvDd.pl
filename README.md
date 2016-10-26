@@ -30,7 +30,7 @@
 #####Options
 -h|--help　　print help
 
--b\*　　Full path of intersectBed
+-b\*　　/path/intersectBed
 
 -d\*　　DGV dataset (.txt)
 
